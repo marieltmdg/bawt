@@ -42,9 +42,7 @@ client.on('messageCreate', async message => {
         message.channel.send("BAWT");
     } else if (cmd === "creator") {
         message.channel.send("molly");
-    } else {
-        message.channel.send(cmd + " command not recognized");
-    }
+    } 
 });
 
 client.login(config.token); // Login with the bot's token
